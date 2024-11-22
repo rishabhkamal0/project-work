@@ -1,0 +1,108 @@
+/* Global Body Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIE3tJu6h15NjgMLi1x4iULUlvo8ghL71KVg&s'); /* Replace with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: rgb(249, 242, 242); /* Sets a nice text color for contrast */
+}
+
+/* Code styles for monospaced fonts */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+/* Styling for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Centered header with a professional look */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+/* Section for File Upload */
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* Transparent background */
+  border-radius: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Input and Buttons */
+input[type="file"] {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Summary Section */
+.summary-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  color: #f1f1f1;
+  text-align: left;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summary-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
